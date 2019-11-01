@@ -1,0 +1,28 @@
+{
+  "name": "react-isonline-hook",
+  "version": "1.0.2",
+  "description": "It is a react hook that tells you that the user is online or not anc continuosly tracks it.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aichbauer/express-rest-api-boilerplate.git"
+  },
+  "author": "Shivyan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
